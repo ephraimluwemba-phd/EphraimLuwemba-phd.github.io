@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Sorts+Mill+Goudy&display=swap');
+/*******
+* E.g.,
+* font-family: 'Amatic SC', cursive;
+* font-family: 'Sorts Mill Goudy', serif;
+* font-family: 'Annie Use Your Telescope', cursive;
+*********/
+body {
+  background-color: #FFFFFF;
+  /* FC995B */
+  background-repeat: repeat;
+  padding-bottom: 100px;
+}
+
+body h1, h2, h3 {
+  font-family: 'Amatic SC';
+}
+body a, p, ul
+{
+  font-family: 'Annie Use Your Telescope';
+}
+
+.main {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #502F4C;
+  margin: auto;
+  margin-top: 5.4vh;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 80%;
+  border-radius: 5px;
+  opacity: 0.85;
+  text-align: justify;
+}
+.main h1
+{
+  font-size: 3.5vw;
+}
+.main h2 {
+  font-size: 2.5vw;
+}
+.main h3 {
+  font-size: 2.2vw;
+  font-style: italic;
+}
+.main p {
+  font-size: 1.7vw;
+}
+.main a {
+  color: blue;
+}
+.main a:visited
+{
+  color: brown;
+}
+
+.content-lg {
+  margin: 30px auto;
+  width: 90%;
+  z-index: 4;
+}
+.content-lg h1 {
+  font-size: 3.4vw;
+  font-weight: bold;
+}
+.content-lg h2 {
+  font-size: 2.6vw;
+}
+.content-lg h3 {
+  font-size: 2.2vw;
+  font-style: italic;
+}
+
+.content-lg p, a, li {
+  font-size: 1.7vw;
+}
+
+
+.image-container
+{
+  position:relative;
+  padding-bottom:0.25%;
+	padding-top:28.25%;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-top: 5.4vh;
+  box-shadow: 1px 2.5px 4px 5px rgba(9,9,9,9);
+  border-radius: 2px;
+  opacity: 0.95;
+	height:0;
+	overflow:hidden;
+}
+
+.image-container img
+{
+  position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
