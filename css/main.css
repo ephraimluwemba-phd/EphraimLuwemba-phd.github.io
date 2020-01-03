@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Sorts+Mill+Goudy&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin+Sketch|Fredericka+the+Great|Monoton|Nixie+One|Rye|Shojumaru|Sigmar+One|Special+Elite&display=swap');
+
 /*******
 * E.g.,
 * font-family: 'Amatic SC', cursive;
@@ -12,15 +15,17 @@ body {
   /* FC995B */
   background-repeat: repeat;
   padding-bottom: 100px;
-  font-family: 'Raleway';
+  font-family: 'Nixie One';
 }
 
 body h1, h2, h3 {
-  font-family: 'Amatic SC';
+  font-family: 'Fredericka the Great';
 }
 
 
+
 .main {
+  position: relative;
   padding-top: 8px;
   padding-bottom: 8px;
   color: #502F4C;
@@ -36,6 +41,8 @@ body h1, h2, h3 {
 .main h1
 {
   font-size: 3.5vw;
+  color: black;
+  font-family: 'Special Elite';
 }
 .main h2 {
   font-size: 3.2vw;
