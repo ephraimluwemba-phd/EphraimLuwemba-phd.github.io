@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Sorts+Mill+Goudy&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 /*******
 * E.g.,
 * font-family: 'Amatic SC', cursive;
@@ -10,15 +12,13 @@ body {
   /* FC995B */
   background-repeat: repeat;
   padding-bottom: 100px;
+  font-family: 'Raleway';
 }
 
 body h1, h2, h3 {
   font-family: 'Amatic SC';
 }
-body a, p, ul
-{
-  font-family: 'Annie Use Your Telescope';
-}
+
 
 .main {
   padding-top: 8px;
