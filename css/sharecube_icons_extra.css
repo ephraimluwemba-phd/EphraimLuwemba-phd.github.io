@@ -1,0 +1,13 @@
+#Information_collected_layer
+{
+  background: linear-gradient(to top, #ff5233 -3%, #ffffff 100%);
+}
+#Information_used_layer
+{
+  background-color: #ff5233;
+}
+
+#Information_shared_layer
+{
+  background: linear-gradient(to bottom, #ff5233 -3%, #ffffff 100%);
+}
